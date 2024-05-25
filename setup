@@ -15,6 +15,9 @@ packages=(
 	npm
 	starship
 	lazygit
+	kubectl
+	derailed/k9s/k9s
+	brew install fluxcd/tap/flux
 )
 
 # Iterate over the array and install each package
