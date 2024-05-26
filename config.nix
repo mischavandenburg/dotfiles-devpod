@@ -1,7 +1,7 @@
 {
   packageOverrides = pkgs: with pkgs; {
     myPackages = pkgs.buildEnv {
-      name = "coding";
+      name = "mischa-tools";
       paths = [
         neovim
         starship
@@ -9,6 +9,8 @@
         ripgrep
         lazygit
         kubectl
+        k9s
+        fluxcd
       ];
     };
   };
