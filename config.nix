@@ -4,6 +4,8 @@
       name = "mischa-tools";
       paths = [
         neovim
+        go
+        nodejs_22
         starship
         fd
         ripgrep
