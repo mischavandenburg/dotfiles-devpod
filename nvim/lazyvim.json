@@ -1,9 +1,11 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.lang.go"
+    "lazyvim.plugins.extras.lang.go",
+    "lazyvim.plugins.extras.lang.yaml",
+    "lazyvim.plugins.extras.util.startuptime"
   ],
   "news": {
     "NEWS.md": "4964"
   },
-  "version": 4
+  "version": 5
 }
