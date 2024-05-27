@@ -3,6 +3,7 @@
     myPackages = pkgs.buildEnv {
       name = "mischa-tools";
       paths = [
+        bash-completion
         neovim
         go
         nodejs_22
@@ -11,6 +12,7 @@
         ripgrep
         lazygit
         kubectl
+        kubectx
         k9s
         fluxcd
       ];
