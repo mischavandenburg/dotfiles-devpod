@@ -10,6 +10,7 @@
         starship
         fd
         ripgrep
+        fzf
         lazygit
         kubectl
         kubectx

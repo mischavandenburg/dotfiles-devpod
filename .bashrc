@@ -14,6 +14,7 @@ bind -x '"\C-l":clear'
 
 export VISUAL=nvim
 export EDITOR=nvim
+export TERM=screen-256color
 
 # config
 export BROWSER="firefox"
