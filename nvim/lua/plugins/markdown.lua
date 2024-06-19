@@ -4,8 +4,11 @@ return {
     cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
     ft = { "markdown" },
     build = function()
-      vim.fn["mkdp#util#install"]()
+      local install_cmd = "cd /home/vscode/.local/share/nvim/lazy/markdown-preview.nvim && npm install"
+      local output = vim.fn.system(install_cmd)
+      print(output)
     end,
+
     config = function()
       vim.g.mkdp_open_to_the_world = 1
       vim.g.mkdp_open_ip = "127.0.0.1"
