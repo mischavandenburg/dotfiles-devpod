@@ -19,3 +19,12 @@ opt.scrolloff = 8
 opt.linebreak = true
 
 vim.g.lazygit_config = false
+
+-- markdown
+-- vim.g.mkdp_browser = "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge"
+
+-- vim.g.mkdp_open_to_the_world = 1
+-- vim.g.mkdp_open_ip = "127.0.0.1"
+-- vim.g.mkdp_port = 30138
+-- vim.g.mkdp_browser = "none"
+-- vim.g.mkdp_echo_preview_url = 1
