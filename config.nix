@@ -3,7 +3,7 @@
     myPackages = pkgs.buildEnv {
       name = "mischa-tools";
       paths = [
-        bash-completion
+        zsh-completions
         neovim
         go
         nodejs_22
