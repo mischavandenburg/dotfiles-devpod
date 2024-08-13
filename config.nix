@@ -7,7 +7,7 @@
         neovim
         go
         nodejs_22
-        starship
+        pure-prompt
         fd
         ripgrep
         fzf
