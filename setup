@@ -41,4 +41,8 @@ echo "All packages have been installed."
 mkdir -p "$HOME/.zsh"
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
+# Silence source warning
+
+touch "$HOME/.privaterc"
+
 echo "Setup complete. Zsh configuration files have been downloaded and set up."
