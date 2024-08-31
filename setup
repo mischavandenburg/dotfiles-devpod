@@ -11,7 +11,8 @@ ln -sf "$PWD/.inputrc" "$HOME"/.inputrc
 ln -sf "$PWD/.tmux.conf" "$HOME"/.tmux.conf
 ln -sf "$PWD/config.nix" "$XDG_CONFIG_HOME"/nixpkgs/config.nix
 
-# Fetch and set up Zsh configuration files
+# Fetch and set up Zsh configuration files from my main dotfiles repo
+
 curl -o "$HOME/.zshrc" https://raw.githubusercontent.com/mischavandenburg/dotfiles/main/.zshrc
 curl -o "$HOME/.zprofile" https://raw.githubusercontent.com/mischavandenburg/dotfiles/main/.zprofile
 
@@ -24,6 +25,7 @@ packages=(
   ripgrep
   npm
   lazygit
+  fzf
 )
 
 # Iterate over the array and install each package
@@ -34,5 +36,9 @@ done
 
 echo "All packages have been installed."
 
-# Inform the user
+# Set up pure prompt
+
+mkdir -p "$HOME/.zsh"
+git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
+
 echo "Setup complete. Zsh configuration files have been downloaded and set up."
