@@ -26,6 +26,10 @@ packages=(
   npm
   lazygit
   fzf
+  kubectl
+  fluxcd/tap/flux
+  k9s
+  direnv
 )
 
 # Iterate over the array and install each package
