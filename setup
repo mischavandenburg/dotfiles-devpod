@@ -49,4 +49,12 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
 touch "$HOME/.privaterc"
 
+# Set up completions
+
+midir -p "$HOME/.zfunc
+flux completion zsh > $HOME/.zfunc/_flux
+kubectl completion zsh > $HOME/.zfunc/_kubectl
+
 echo "Setup complete. Zsh configuration files have been downloaded and set up."
+
+
