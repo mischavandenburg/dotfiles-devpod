@@ -29,6 +29,7 @@ packages=(
   kubectl
   fluxcd/tap/flux
   k9s
+  kubectx
   direnv
 )
 
